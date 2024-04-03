@@ -1,0 +1,127 @@
+html {
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+  font-size: 400;
+}
+
+h2, h4, p {
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit
+}
+
+#card {
+  width: 800px;
+  height: 500px;
+  box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#top-section {
+  margin: 0px;
+  width: 100%;
+  height: 45%;
+  background-color: white;
+  padding: 35px;
+}
+
+#top-section h2 {
+  color: #2ab2af;
+  margin-bottom: 30px;
+}
+
+#top-section h4 {
+  color: #edd626;
+  margin-bottom: 15px;
+}
+
+#top-section p {
+  color: #98a6bd;
+}
+
+#bottom-section {
+  display: flex;
+  width: 100%;
+  height: 55%;
+  color: white;
+}
+
+#box-1, #box-2 {
+  width: 50%;
+  height: 100%;
+  padding: 35px;
+  padding-top: 30px;
+}
+
+#price-container {
+  margin-bottom: 10px;
+}
+
+#price {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 2rem
+}
+
+#price-unit {
+  position: relative;
+  display: inline-block;
+  font-weight: 300;
+  opacity: 0.5;
+  padding-bottom: 4px;
+  top: -6px;
+  margin-left: 5px;
+}
+
+#box-1 p {
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+#box-1 {
+  background-color: #2ab2af;
+}
+
+#box-1 h4 {
+  margin-bottom: 20px;
+}
+
+
+
+button {
+  background-color: #c0df34;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 1.3rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #A4C11F;
+  transform: scale(1.05);
+}
+
+#box-2 {
+  background-color: #33d6d3;
+}
+
+#box-2 h3 {
+  
+}
+
+#box-2 ul {
+  padding: 0px;
+  opacity: 0.7;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 3px;
+}
