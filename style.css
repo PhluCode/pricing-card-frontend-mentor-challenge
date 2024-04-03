@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   font-family: "Karla", sans-serif;
-  font-size: 400px;
 }
 
 h2, h4, p {
@@ -88,8 +87,6 @@ h2, h4, p {
 #box-1 h4 {
   margin-bottom: 20px;
 }
-
-
 
 button {
   background-color: #c0df34;
