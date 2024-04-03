@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   font-family: "Karla", sans-serif;
-  font-size: 400;
 }
 
 h2, h4, p {
@@ -63,7 +62,7 @@ h2, h4, p {
 #price {
   display: inline-block;
   font-weight: 700;
-  font-size: 2rem
+  font-size: 2rem;
 }
 
 #price-unit {
@@ -110,10 +109,6 @@ button:hover {
 
 #box-2 {
   background-color: #33d6d3;
-}
-
-#box-2 h3 {
-  
 }
 
 #box-2 ul {
